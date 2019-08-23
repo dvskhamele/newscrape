@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<!-- <center> -->
+<form action="{% url 'scrapy' %}" method="post" novalidate>
+    {% csrf_token %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    	<!-- <button type="submit" value='Click' class="btn">All Sites Scrapy start</button>
+    	<br> -->
+      	<input type="checkbox" class="btn" value="https://timesofindia.indiatimes.com/" name="Sites" > The Times of India </input> 
+		<br>
+      	<input type="checkbox" class="btn" value="https://aninews.in" name="Sites" > ANI NEWS </input>
+		<br>
+      	<input type="checkbox" class="btn" value="https://indiatoday.in" name="Sites" > India Today </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.thequint.com/entertainment" name="Sites" > The Quint </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://inshorts.com/en/read" name="Sites" > In Shorts </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://in.reuters.com/" name="Sites" > Reuters India </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://indianexpress.com/" name="Sites" > Indian Express </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.thehindu.com/" name="Sites" > The Hindu </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.firstpost.com/tech" name="Sites" > Firstpost </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.timesnownews.com/" name="Sites" > Times Now </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.pinkvilla.com/" name="Sites" > Pinkvilla </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.livemint.com/" name="Sites" > Live Mint </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.hindustantimes.com/" name="Sites" > Hindustan Times </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://zeenews.india.com/" name="Sites" > Zee News India </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.crictracker.com/cricket-news/" name="Sites" > CricTracker </input>
+		<br>
+    	<input type="checkbox" class="btn" value="https://techcrunch.com/" name="Sites" > TechCrunch </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.rvcj.com/" name="Sites" > RVCJ </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.theverge.com/" name="Sites" > The Verge </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.digitaltrends.com/" name="Sites" > Digital Trends </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.bbc.com/" name="Sites" > BBC </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.economist.com/" name="Sites" > Economist </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://economictimes.indiatimes.com/" name="Sites" > Economic Times </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.financialexpress.com/" name="Sites" > Financial Express </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.theguardian.com/international" name="Sites" > Guardian </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://edition.cnn.com/" name="Sites" > CNN </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.foxnews.com/" name="Sites" > Fox News </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.aljazeera.com/" name="Sites" > Al Jazeera </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.vccircle.com/" name="Sites" > VC Circle </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.engadget.com/" name="Sites" > EndGadget </input>
+		<br>
+		<input type="checkbox" class="btn" value="https://www.espn.in/" name="Sites" > ESPN </input>
+		<br>
+		<input type="submit" value="Submit">
+    <!-- </center> -->
+</form>
+</body>
+</html>
